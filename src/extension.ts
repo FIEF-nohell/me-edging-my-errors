@@ -70,15 +70,15 @@ function getImageForErrors(webview: vscode.Webview, errorCount: number): string 
 
     if (errorCount === 0) {
         imageUrl = 'https://s9.gifyu.com/images/SUsqq.gif';
-    } else if (errorCount >= 1 && errorCount <= 3) {
+    } else if (errorCount === 1) {
         imageUrl = 'https://s9.gifyu.com/images/SUsqq.gif';
-    } else if (errorCount >= 4 && errorCount <= 6) {
+    } else if (errorCount === 2) {
         imageUrl = 'https://s9.gifyu.com/images/SUsqv.gif';
-    } else if (errorCount >= 7 && errorCount <= 9) {
+    } else if (errorCount === 3) {
         imageUrl = 'https://s9.gifyu.com/images/SUsqk.gif';
-    } else if (errorCount >= 10 && errorCount <= 12) {
+    } else if (errorCount === 4) {
         imageUrl = 'https://s9.gifyu.com/images/SUsq7.gif';
-    } else if (errorCount >= 13 && errorCount <= 15) {
+    } else if (errorCount === 5) {
         imageUrl = 'https://s9.gifyu.com/images/SUsqm.gif';
     } else {
         imageUrl = 'https://j.gifs.com/OMOZMG.gif';
