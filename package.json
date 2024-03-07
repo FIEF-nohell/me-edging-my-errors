@@ -2,6 +2,10 @@
   "name": "me-edging-my-errors",
   "displayName": "Me Edging My Errors",
   "description": "An extension to display error images.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FIEF-nohell/me-edging-my-errors"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.87.0"

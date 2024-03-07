@@ -1,71 +1,35 @@
-# me-edging-my-errors README
+# Me Edging My Errors - VSCode Extension
 
-This is the README for your extension "me-edging-my-errors". After writing up a brief description, we recommend including the following sections.
+## Overview
+
+"Me Edging My Errors" is a unique Visual Studio Code extension designed to make your debugging experience more entertaining. Instead of the usual frustration that comes with encountering errors in your code, this extension displays humorous and motivational GIFs based on the number of errors in your current project. The goal is to lighten the mood and offer a brief respite from the challenges of coding.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Error-Specific GIFs**: The extension intelligently selects GIFs related to the number of errors in your project. A small mistake might get you a light-hearted chuckle, whereas a slew of errors could bring out the heavy comedic artillery.
+- **Motivational Boosts**: Along with humor, some GIFs are designed to motivate, providing that little push needed to tackle the debugging process head-on.
+- **Easy Activation**: Access the extension's functionality effortlessly with a simple command in the command palette.
 
-For example if there is an image subfolder under your extension project workspace:
+## How to Use
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Install the "Me Edging My Errors" extension from the Visual Studio Code Marketplace.
+2. To activate the extension, open the Command Palette by pressing `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (macOS).
+3. Type `Display Error Image` and press Enter.
+4. A GIF will appear in a side panel, selected based on the current number of errors in your workspace.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Installation
 
-## Requirements
+Search for "Me Edging My Errors" in the Visual Studio Code Marketplace or install it directly through the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Support
 
-## Extension Settings
+Found a bug? Have a suggestion? Please file an issue on our GitHub repository. We appreciate your feedback and contributions to make "Me Edging My Errors" even better!
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## License
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+This extension is released under the MIT License. See the LICENSE file for more details.
 
 ---
 
-## Following extension guidelines
+Happy Coding! Remember, every error is a step closer to success. Let's navigate the bumpy road of debugging with a smile.
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
