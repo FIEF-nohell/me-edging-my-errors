@@ -67,9 +67,9 @@ export function activate(context: vscode.ExtensionContext) {
 // Function to get the image URL based on the error count
 function getImageForErrors(webview: vscode.Webview, errorCount: number): string {
     let imageUrl: string;
-
+    https://freeimage.host/i/JVMLxcv
     if (errorCount === 0) {
-        imageUrl = 'https://s9.gifyu.com/images/SUsqq.gif';
+        imageUrl = 'https://iili.io/JVMLxcv.png';
     } else if (errorCount === 1) {
         imageUrl = 'https://s9.gifyu.com/images/SUsqq.gif';
     } else if (errorCount === 2) {
